@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.spring.springboot.dao.UserDao">
+    <resultMap id="userMap" type="org.spring.springboot.domain.SysUser">
+        <id property="id" column="id"/>
+        <result property="userName" column="user_name"/>
+        <result property="password" column="password"/>
+        <result property="phone" column="phone"/>
+        <result property="email" column="email"/>
+        <result property="chineseName" column="chinese_name"/>
+        <collection property="roles" ofType="org.spring.springboot.domain.SysRole">
+            <result column="name" property="name"/>
+        </collection>
+
+    </resultMap>
+    <select id="findByUserName" parameterType="String" resultMap="userMap">
+		select u.*
+		,r.name
+		from sys_user u
+        LEFT JOIN sys_role_user sru on u.id= sru.sys_user_id
+        LEFT JOIN sys_role r on sru.sys_role_id=r.id
+        where user_name= #{userName}
+	</select>
+	
+	<insert id="saveUser" parameterType="org.spring.springboot.domain.SysUser">
+		insert into
+			sys_user(id,user_name,password,phone,email,chinese_name)
+		values
+			(#{id},#{userName},#{password},#{phone},#{email},#{chineseName})	
+	</insert>
+	
+	<insert id="saveRoleUser" parameterType="org.spring.springboot.domain.SysUser">
+		insert into
+			sys_role_user(sys_user_id,sys_role_id)
+		values
+			(#{id},(SELECT id FROM sys_role WHERE NAME="user")
+			)	
+	</insert>
+</mapper>

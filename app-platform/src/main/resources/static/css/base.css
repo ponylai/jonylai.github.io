@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/*CSS Reset*/
+body,div,ul,ol,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,form,table,tr,td,th,button,input,select,textarea{margin:0;padding:0;}
+img{border:none;vertical-align:top;}
+ol,ul{list-style:none;}
+button,input,select,textarea{font-size:100%;outline:none;resize:none; font-family: "Microsoft Yahei"}
+/*strong,b{font-style:normal;font-weight:normal;}*/
+i,em{font-style:normal;font-weight:normal;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+table td{ border:1px solid #ddd;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+
+/*User-Defined*/
+body{ overflow-x: auto; min-width: 1200px;height: 100%; font:14px/1.2'Microsoft Yahei',Arial;color:#4a4a4a;background:#fff;-webkit-text-size-adjust:none; margin:0 auto; width: 100%}
+a{color:#666;text-decoration:none;outline:none;}
+

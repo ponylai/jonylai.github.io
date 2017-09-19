@@ -1,0 +1,83 @@
+.header {
+    height: 110px;
+    background: url(//) repeat-x left bottom;
+}
+.w {
+    width: 1210px;
+    margin: 0 auto;
+}
+.header .logo {
+    width: 160px;
+    height: 50px;
+    float: left;
+    margin-top: 24px;
+}
+.header .logo{
+    background: url(//misc.360buyimg.com/user/reg/1.0.0/css/i/icon.png) no-repeat;
+}
+.header .logo-title {
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    font-size: 24px;
+    color: #333;
+    padding-left: 30px;
+    margin-top: 34px;
+}
+
+.header .have-account {
+    font-size: 16px;
+    float: right;
+    margin-top: 55px;
+    color: #999;
+}
+.header .have-account {
+    font-size: 16px;
+    float: right;
+    margin-top: 55px;
+    color: #999;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.header .have-account a {
+    color: #333;
+}
+.content .main{
+    
+}
+.footer {
+    font-size: 12px;
+    text-align: center;
+    border-top: solid 1px #e6e6e6;
+    color: #999;
+    padding-bottom: 30px;
+}
+.footer .links {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.footer a {
+    color: #999;
+    margin: 0 10px;
+}
+
+.i-global{
+    background: url(//misc.360buyimg.com/user/reg/1.0.0/css/i/icon.png) no-repeat;
+}
+
+.login-form .msg-error b {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    display: block;
+    margin-top: -8px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2016-1124/i/pwd-icons-new.png) -104px -49px no-repeat;
+}

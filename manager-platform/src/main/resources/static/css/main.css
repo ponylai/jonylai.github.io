@@ -1,0 +1,53 @@
+.wall-content{background-color: #fffa48;position: fixed;width: 100%;height: 100%}
+.content{background-color: #fffa48;position: fixed;width: 80%;height: 90%}
+.lovewall-panel {
+    font-size: 12px;
+    /* color: #343434; */
+    color: #000;
+    border-right: 1pt ridge;
+    border-top: 0pt ridge;
+    border-left: 0pt ridge;
+    border-bottom: 1pt ridge;
+    position: absolute;
+    width: 205px;
+    height: auto;
+}
+.lovewall-panel-header {
+    line-height: 20px;
+    padding: 5px 0 0 5px;
+}
+.lovewall-panel-body {
+    line-height: 20px;
+    padding: 5px;
+    min-height: 100px;
+    word-break: break-all;
+}
+
+.btn {
+    -moz-user-select: none;
+    background: #16a0d3 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Microsoft Yahei";
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 1px 0 0;
+    padding: 0 20px;
+}
+.btn.blue {
+    background-color: #3e94fe;
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.index-content{
+    min-height: 600px;
+}

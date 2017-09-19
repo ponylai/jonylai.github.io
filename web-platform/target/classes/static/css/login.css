@@ -1,0 +1,328 @@
+/* regesiter */
+.main {
+    margin: 50px auto 60px;
+    width: 830px;
+}
+.reg-form {
+    width: 400px;
+    padding-right: 90px;
+    border-right: solid 1px #e6e6e6;
+}
+.fl {
+    float: left;
+}
+.reg-other {
+    float: left;
+    margin-left: 104px;
+}
+.reg-other .inter-cust {
+    width: 160px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.reg-other .inter-cust a {
+    display: block;
+    width: 170px;
+    height: 40px;
+}
+.reg-other a:hover {
+    color: #000;
+    font-weight: 700;
+}
+.reg-other .inter-cust a i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: text-bottom;
+    margin-right: 15px;
+    float: left;
+    margin-top: 7px;
+}
+.reg-other .i-global {
+    background-position: -50px -50px;
+}
+
+.reg-other .inter-cust a span {
+    display: inline-block;
+}
+
+.reg-other .phone-fast-reg {
+    background: url(//misc.360buyimg.com/user/reg/1.0.0/widget/personal-reg-1130/i/phone.jpg) no-repeat;
+    width: 213px;
+    height: 270px;
+    margin-top: 50px;
+}
+
+.form-item {
+    position: relative;
+    border: solid 1px #ddd;
+    width: 398px;
+    height: 52px;
+    z-index: 0;
+    margin-bottom: 20px;
+}
+.form-item-account {
+    z-index: 13;
+}
+.form-item-password {
+    z-index: 13;
+}
+.form-item label {
+    float: left;
+    width: 90px;
+    height: 52px;
+    line-height: 52px;
+    padding-left: 20px;
+}
+.form-item .field {
+    border: 0 none;
+    font-size: 14px;
+    width: 190px;
+    height: 19px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-top: 16px;
+}
+.btn-phonecode {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 110px;
+    height: 46px;
+    border: none;
+    background: #e22;
+    color: #333;
+    padding: 0;
+}
+.form-agreen {
+    color: #333;
+    font-size: 12px;
+}
+.form-agreen input {
+    width: 18px;
+    height: 18px;
+    border: solid 1px #cfd1d3;
+    vertical-align: text-top;
+    padding: 0;
+    margin: 0;
+    margin-right: 10px;
+}
+.form-agreen a {
+    color: #38f;
+}
+
+.input-tip {
+    color: #c5c5c5;
+    height: 27px;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.btn-register {
+    width: 100%;
+    height: 54px;
+    color: #fff;
+    background: #e22;
+    border: 0;
+    font-size: 16px;
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+}
+
+
+/* login */
+.login-wrap {
+    position: relative;
+    height: 475px;
+    margin: -10px 0 0px;
+    z-index: 5;
+}
+.login-wrap .login-banner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 475px;
+    background: #e93854;
+}
+.login-wrap .i-inner {
+    position: relative;
+    z-index: 3;
+    height: 475px;
+}
+
+.login-wrap .login-form {
+    float: right;
+    top: 40px;
+}
+
+.login-form {
+    position: relative;
+    z-index: 4;
+    background: #fff;
+    overflow: visible;
+    width: 346px;
+}
+
+.login-form .login-tab-l, .login-form .login-tab-r {
+    width: 100%;
+}
+.login-form .login-tab {
+    height: 54px;
+    font-size: 18px;
+    font-family: "microsoft yahei";
+    text-align: center;
+    border-bottom: 1px solid #f4f4f4;
+    position: absolute;
+    background: #fff;
+    display: block;
+}
+
+.login-form .login-tab a.checked, .login-form .login-tab a:hover {
+    font-weight: 700;
+    color: #e4393c;
+}
+
+.login-form .login-tab a {
+    width: 99%;
+    height: 18px;
+    position: absolute;
+    left: 0;
+    top: 18px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+}
+
+.login-form .login-box {
+    width: 306px;
+    padding: 20px;
+    visibility: hidden;
+}
+
+.login-form .login-box .tab-h {
+    height: 35px;
+}
+.form .item {
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+.form .item-fore1, .form .item-fore2 {
+    border: 1px solid #bdbdbd;
+    height: 38px;
+    width: 304px;
+}
+
+.form .item .name-label {
+    background-position: 0 0;
+}
+
+.form .item .login-label {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    border-right: 1px solid #bdbdbd;
+    background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2016-1124/i/pwd-icons-new.png) no-repeat;
+}
+
+.form label {
+    float: none;
+}
+
+.form .itxt {
+    line-height: 18px;
+    height: 18px;
+    border: 0;
+    padding: 10px 0 10px 50px;
+    width: 254px;
+    float: none;
+    overflow: hidden;
+    font-size: 14px;
+    font-family: '\5b8b\4f53';
+}
+
+.form .item-fore1 .clear-btn, .form .item-fore2 .clear-btn {
+    position: absolute;
+    z-index: 20;
+    right: 6px;
+    top: 12px;
+    width: 14px;
+    height: 14px;
+    background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2016-1124/i/pwd-icons-new.png) -25px -143px no-repeat;
+    cursor: pointer;
+    display: none;
+}
+.login-form .msg-wrap {
+    min-height: 23px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: auto!important;
+}
+.login-form .msg-error {
+    position: relative;
+    background: #ffebeb;
+    color: #e4393c;
+    border: 1px solid #faccc6;
+    padding: 3px 10px 3px 40px;
+    line-height: 15px;
+    height: auto;
+}
+.login-form .login-box .safe {
+    position: relative;
+    color: #666;
+}
+.login-form .login-box .safe .forget-pw-safe {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+}
+
+.form .jdcheckbox, .form .jdradio {
+    float: none;
+    vertical-align: middle;
+    _vertical-align: -1px;
+    margin: 0 3px 0 0;
+    padding: 0;
+}
+.form .label, .form button, .form input, .form label, .form select, .form textarea {
+    float: left;
+    font-size: 12px;
+}
+.form label {
+    float: none;
+}
+.form .item-fore5 {
+    margin-bottom: 10px;
+}
+.login-form .login-box .login-btn {
+    border: 1px solid #cb2a2d;
+    margin: 0 auto;
+    height: 32px;
+    width: 99%;
+    position: relative;
+}
+.login-form .login-box .login-btn .btn-img:hover {
+    text-decoration: none;
+}
+.login-form .login-box .login-btn .btn-img {
+    border: 1px solid #e85356;
+    display: block;
+    width: 302px;
+    background: #e4393c;
+    height: 31px;
+    line-height: 31px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Microsoft YaHei';
+}
+.btn-img, .button {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    cursor: pointer;
+}

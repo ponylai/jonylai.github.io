@@ -1,0 +1,42 @@
+.left-fixd-menu{ width:14%;float:left;position: fixed;}
+
+.right-content{width: 1000px;margin: 0 auto;margin-top: 15px;}
+
+.index-nav-wrap {
+	margin:30%;padding:0;
+	width: 78px;
+	height: auto;
+    margin-left: auto;
+	margin-right: auto;
+    border: 1px solid #d6d6d6;
+    border-radius: 3px;
+    
+}
+
+.index-nav-list {
+    padding: 3px 5px 0;
+    margin-bottom: 5px;
+    
+}
+.index-nav-item {
+    display: block;
+    padding: 8px 5px;
+    height: 20px;
+    border-bottom: 1px solid #eaeaea;
+    color: #666;
+}
+ .index-nav-item .curr {
+    position: relative;
+    z-index: 1;
+    left: -3px;
+    margin-top: -1px;
+    padding: 8px 8px 10px;
+    width: 52px;
+    background-color: #f10180;
+    border-bottom: 0;
+    color: #fff;
+    border-radius: 4px;
+}
+
+
+

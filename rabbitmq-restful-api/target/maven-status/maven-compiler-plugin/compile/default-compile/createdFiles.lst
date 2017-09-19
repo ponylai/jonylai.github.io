@@ -1,0 +1,6 @@
+com\spring\springboot\config\AmqpConfig.class
+com\spring\springboot\RabbitmqApplication.class
+com\spring\springboot\sender\Sender.class
+com\spring\springboot\controller\DemoController.class
+com\spring\springboot\dto\Order.class
+com\spring\springboot\Receiver\Receiver.class

@@ -1,0 +1,144 @@
+.m-footer {
+    border-top: 2px solid #3780c5;
+}
+.m-footer, .m-footer .m-inner {
+    clear: both;
+    background-color: #fff;
+    height: 200px;
+}
+.m-footer .m-inner {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.m-footer, .m-footer .m-inner {
+    clear: both;
+    background-color: #fff;
+    height: 200px;
+}
+
+
+.w-fl-left {
+    float: left;
+}
+
+.m-footer .copyright {
+    color: #b9b9b9;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+.m-footer .link {
+    margin-top: 8px;
+}
+
+.m-footer .link .spare-weibo {
+    background-position: 0 0;
+}
+.m-footer .link .spare-icon {
+    background: url(../images/m-icon-share.png) 500px 500px no-repeat;
+    display: inline-block;
+    width: 39px;
+    height: 38px;
+    margin-right: 20px;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+a {
+    outline: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+a, body {
+    color: #383a4c;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+a {
+    outline: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+a, body {
+    color: #383a4c;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+.m-footer .m-foot-link a:hover {
+    color: #189cfb;
+}
+.m-footer .m-foot-link a {
+    display: block;
+    color: #666;
+    line-height: 26px;
+    font-size: 14px;
+}
+a:hover {
+    color: #189cfb;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+a {
+    outline: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+a, body {
+    color: #383a4c;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+.m-footer .m-foot-link {
+    margin-top: 45px;
+    width: 350px;
+}
+.w-fl-right {
+    float: right;
+}
+
+.m-footer .m-foot-link .w-fl-left {
+    width: 120px;
+}
+.w-fl-left {
+    float: left;
+}
+
+.m-footer .m-foot-link .m-code {
+    float: right;
+    width: 96px;
+}
+.m-footer .m-foot-link .m-code .c-image {
+    background: url(../images/wechat-4.png) no-repeat;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.m-footer .m-foot-link .m-code .c-title {
+    color: #666;
+    text-align: center;
+    line-height: 35px;
+    font-size: 12px;
+}

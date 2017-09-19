@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.spring.springboot.dao.WishDao">
+
+	<resultMap id="WishResultMap" type="org.spring.springboot.domain.Wish">
+		<result column="id" property="id" />
+		<result column="content" property="content" />
+		<result column="create_time" property="createTime" />
+		<result column="check_status" property="checkStatus" />
+		<result column="user_id" property="userId" />
+		<result column="color" property="color" />
+	</resultMap>
+
+	<parameterMap id="wish" type="org.spring.springboot.domain.Wish"/>
+	<!--表名 -->
+	<sql id="tableName">
+		wish
+	</sql>
+	
+	<!-- 字段 -->
+	<sql id="Field">
+		id,	
+		content,	
+		create_time,	
+		check_status,	
+		user_id,
+		color
+	</sql>
+	
+	<!-- 字段值 -->
+	<sql id="FieldValue">
+		#{id},	
+		#{content},	
+		#{createTime},	
+		#{checkStatus},	
+		#{userId},	
+		#{color}
+	</sql>
+	
+	<!-- 新增和获取id-->
+	<insert id="saveWish" parameterType="wish" useGeneratedKeys="true" keyProperty="id">
+		insert into
+			WISH(id,content,create_time,check_status,user_id,color)
+		values
+			(#{id},#{content},#{createTime},#{checkStatus},#{userId},#{color})
+	</insert>
+	
+	<!-- 删除-->
+	<delete id="deleteWish" parameterType="java.lang.Long">
+		delete from
+		<include refid="tableName"></include>
+		where 
+			ID = #{ID}
+	</delete>
+	
+	<!-- 修改 -->
+	<update id="updateWish" parameterType="wish">
+		update
+		<include refid="tableName"></include>
+		set 
+			CONTENT = #{CONTENT},
+		CHECK_STATUS = 1
+		where 
+		ID = #{ID}
+	</update>
+	
+	<!-- 通过ID获取数据 -->
+	<select id="findWishById" parameterType="java.lang.Long" resultMap="WishResultMap">
+		select 
+		<include refid="Field"></include>
+		from 
+		<include refid="tableName"></include>
+		where 
+			ID = #{ID}
+	</select>
+	
+	<!-- 列表(全部) -->
+	<select id="findAllWish" resultMap="WishResultMap">
+		select
+		<include refid="Field"></include>
+		from 
+		<include refid="tableName"></include>
+		where 
+			CHECK_STATUS = 1
+	</select>
+	
+	<!-- QQ375113044 -->
+</mapper>
